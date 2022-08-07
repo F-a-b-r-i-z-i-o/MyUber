@@ -1,11 +1,12 @@
 import React from "react";
 import { StyleSheet, View, SafeAreaView, Image } from "react-native";
 import tw from "tailwind-react-native-classnames";
+import NavOptions from "../components/NavOptions";
 
 const HomeScreen = () => {
   return (
     <SafeAreaView style={tw`bg-white h-full`}>
-      <View>
+      <View style={tw`p-5`}>
         <Image
           style={{
             width: 100,
@@ -17,10 +18,13 @@ const HomeScreen = () => {
           }}
         />
       </View>
+      <NavOptions />
     </SafeAreaView>
   );
 };
+
 export default HomeScreen;
+
 const styles = StyleSheet.create({
   text: {
     color: "blue",
