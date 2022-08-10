@@ -1,6 +1,5 @@
 import { View, Text, StyleSheet } from "react-native";
 import React from "react";
-import PropTypes from "prop-types";
 
 const MapScreen = () => {
   return (

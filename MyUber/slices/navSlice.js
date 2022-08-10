@@ -1,6 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import PropTypes from "prop-types";
-
 /*
     Inizialize App whit: 
 
