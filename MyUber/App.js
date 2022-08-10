@@ -1,3 +1,5 @@
+import React from "react";
+import PropTypes from "prop-types";
 import { StyleSheet, Text, View, Image } from "react-native";
 import { Provider } from "react-redux";
 import { store } from "./store";
