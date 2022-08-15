@@ -152,7 +152,7 @@ In this section we can find the search bar to look for the place where we want t
 
 <br>
 
-<img src="/Screen/screen1"  width="120" height="120">
+![home](./Screen/screen1.jpeg)
 
 <br>
 
