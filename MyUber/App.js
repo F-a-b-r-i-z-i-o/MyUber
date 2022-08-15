@@ -10,7 +10,16 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 export default function App() {
+  // Inizalize navigator
   const Stack = createNativeStackNavigator();
+
+  /*
+  
+      - Create View for Home with options to navigate
+      - Create View for Map with options to navigate 
+      - Keyboard Resize for impove user expirience
+
+  */
 
   return (
     <Provider store={store}>

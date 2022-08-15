@@ -6,6 +6,7 @@ import { useNavigation } from "@react-navigation/native";
 import { useSelector } from "react-redux";
 import { selectOrigin } from "../slices/navSlice";
 
+// Add data to home screen, with food and track
 const data = [
   {
     id: "123",
@@ -22,8 +23,17 @@ const data = [
 ];
 
 const NavOptions = () => {
+  // Inializate navigator
   const navigation = useNavigation();
+  // Inizialize Origin
   const origin = useSelector(selectOrigin);
+
+  /* 
+
+    -List of option 
+    - Image 
+    
+  */
   return (
     <FlatList
       data={data}

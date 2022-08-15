@@ -13,6 +13,7 @@ import { useNavigation } from "@react-navigation/native";
 import { useSelector } from "react-redux";
 import { selectTravelTimeInformation } from "../slices/navSlice";
 
+// Add data for machine travel
 const data = [
   {
     id: "Uber-X-123",
@@ -38,9 +39,23 @@ const data = [
 const SURGE_CHARGE_RATE = 1.5;
 
 const RideOptionsCard = () => {
+  // Inizialize navigator
   const navigation = useNavigation();
+
+  // Inizialize position
   const [selected, setSelected] = useState(null);
+
+  // Inizialize travel time
   const travelTimeInformation = useSelector(selectTravelTimeInformation);
+
+  /*
+      - Add price
+      - Add car image 
+      - Show the travle time by result of api
+      - Show price calculate by formula 
+      - Add view to show select machine 
+      
+   */
   return (
     <SafeAreaView style={tw`bg-white flex-grow`}>
       <View>

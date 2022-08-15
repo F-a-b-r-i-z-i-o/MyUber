@@ -9,7 +9,17 @@ import { setDestination, setOrigin } from "../slices/navSlice";
 import NavFavourites from "../components/NavFavourites";
 
 const HomeScreen = () => {
+  // Inizialize dispatch
   const dispatch = useDispatch();
+
+  /*
+
+    - Add search bar
+    - Add image
+    - Add nav options 
+
+  */
+
   return (
     <SafeAreaView style={tw`bg-white h-full`}>
       <View style={tw`p-5`}>

@@ -9,20 +9,26 @@ import {
 import { Icon } from "react-native-elements";
 import tw from "tailwind-react-native-classnames";
 
+// Add data for my options
 const data = [
   {
     id: "123",
     icon: "home",
     location: "Home",
-    destination: "Code Street, London, UK",
+    destination: "Allerona , TR , IT",
   },
   {
     id: "456",
     icon: "briefcase",
     location: "Work",
-    destination: "London Eye, London, UK",
+    destination: "Perugia , PG , IT",
   },
 ];
+
+/*
+  - Add my data in screen 
+  - Add my icon 
+*/
 
 const NavFavourites = () => {
   return (

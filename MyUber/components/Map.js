@@ -13,11 +13,19 @@ import MapViewDirections from "react-native-maps-directions";
 import { useRef } from "react";
 
 const Map = () => {
+  // Import origin select
   const origin = useSelector(selectOrigin);
+
+  // Import destination
   const destination = useSelector(selectDestination);
+
+  // Inizialize map ref
   const mapRef = useRef(null);
+
+  // Inizialize dispatch
   const dispatch = useDispatch();
 
+  // Fit marker between 2 point
   useEffect(() => {
     if (!origin || !destination) return;
     //Zoom and fit markers
@@ -26,6 +34,7 @@ const Map = () => {
     });
   }, [origin, destination]);
 
+  // Request to distance matrix to see the duration, distance, and other
   useEffect(() => {
     if (!origin || !destination) return;
     const getTravelTime = async () => {
@@ -34,6 +43,7 @@ const Map = () => {
       )
         .then((res) => res.json())
         .then((data) => {
+          // Add element select by request on dispatch
           console.log(data);
           dispatch(setTravelTimeInformation(data.rows[0].elements[0]));
         });
@@ -41,6 +51,10 @@ const Map = () => {
 
     getTravelTime();
   }, [origin, destination, GOOGLE_MAPS_APIKEY]);
+
+  /*
+      - Write path on the screen after request
+  */
 
   return (
     <MapView

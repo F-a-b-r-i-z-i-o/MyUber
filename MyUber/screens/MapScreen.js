@@ -9,8 +9,21 @@ import { Icon } from "react-native-elements/dist/icons/Icon";
 import { useNavigation } from "@react-navigation/native";
 
 const MapScreen = () => {
+  // Inizialize navigator stack
   const Stack = createStackNavigator();
+
+  // Inizialize navigation
   const navigation = useNavigation();
+
+  /*
+
+        - Create menu for back home 
+        - Add map on screen 
+        - Add Navigate card to show path select 
+        - Add RideOprions card to see the price of path and the machine 
+        
+  */
+
   return (
     <View>
       <TouchableOpacity
