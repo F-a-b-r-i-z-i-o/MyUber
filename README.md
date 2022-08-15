@@ -20,7 +20,7 @@ This app is an app that simulates the operation of uber is not complete as the u
 
   - [GoogleApi](#google-api)
 
-- []
+- [HomeScreen]()
 
 <hr>
 
@@ -108,6 +108,8 @@ After registering we can log in with the command:
 
 ### Redux
 
+<hr>
+
 Redux is a predictable state container for JavaScript apps. It helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test. On top of that, it provides a great developer experience, such as live code editing combined with a time traveling debugger. You can use Redux together with React, or with any other view library. It is tiny (2kB, including dependencies), but has a large ecosystem of addons available.
 
 <br>
@@ -135,3 +137,19 @@ For the project google api was used, activate google api you need to go to the a
 - **Directions Api**
 
 <hr>
+
+## Home
+
+In this section we can find the search bar to look for the place where we want to go, the two views where we have if we want to book a ride or food, plus at the bottom are icons that show our references.
+
+**As mentioned above, it is not possible to use the part for food reservation.**
+
+![home](./Screen/screen1.jpeg)
+
+<br>
+
+![home2](./Screen/screen2.jpeg)
+
+<br>
+
+![home3](./Screen/screen3.jpeg)
