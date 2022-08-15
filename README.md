@@ -4,7 +4,7 @@
 
 <br>
 
-This app is an app that simulates the operation of uber is not complete as the uber eats part is not working, but it can be implemented in the future. The project was done with google maps api and redux
+This app is an app that simulates the operation of uber is not complete as the uber eats part is not working, but it can be implemented in the future. The project was done with **React-Native** with google maps api and redux
 
 <br>
 
@@ -22,7 +22,11 @@ This app is an app that simulates the operation of uber is not complete as the u
 
 - [HomeScreen](#home)
 
-- [Navigate]
+- [StartScreen](#startscreen)
+
+- [EndScreen](#endscreen)
+
+- [StartProject](#startproject)
 
 <hr>
 
@@ -138,9 +142,9 @@ For the project google api was used, activate google api you need to go to the a
 - **Distance Matrix**
 - **Directions Api**
 
-<hr>
-
 ## Home
+
+<hr>
 
 In this section we can find the search bar to look for the place where we want to go, the two views where we have if we want to book a ride or food, plus at the bottom are icons that show our references.
 
@@ -160,7 +164,9 @@ In this section we can find the search bar to look for the place where we want t
 
 <br>
 
-## Navigate
+## StartScreen
+
+<hr>
 
 After selecting where you want to go with the get ride button you will be catapulted to the starting location from here we would always have a search bar that will allow us to select the destination. The destination place can also be selected with the appropriate icons in the part below. Plus you can return to the home by pressing the button in the upper left corner of the monitor.
 
@@ -171,3 +177,39 @@ After selecting where you want to go with the get ride button you will be catapu
 <br>
 
 ![Nav](./Screen/screen5.jpeg)
+
+## EndScreen
+
+<hr>
+
+After selecting the arrival location you can see the time, kilometers, and how the price varies based on the selected car. By means of the button at the top left, it is always possible to return directly to the home or you can go back by swiping your finger across the screen.
+
+<br>
+
+![end](./Screen/screen6.jpeg)
+
+<br>
+
+<hr>
+
+## StartProject
+
+React Native is installed along with expo, so we just use the cli to initialize the project
+
+<br>
+
+For run the project:
+
+<br>
+
+`expo start`
+
+<br>
+
+A qr code will be generated which if framed will be able to run our project on both IOS and Android, after downloading the expo app on the said device.
+
+<br>
+
+This project has some bugs that can be fixed in the future if decided to use, plus some installation of some libraries is omitted in case you need to consult the react-native documentation.
+
+**_Enjoy 2F_**
