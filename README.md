@@ -152,7 +152,7 @@ In this section we can find the search bar to look for the place where we want t
 
 <br>
 
-![home](./Screen/screen1.jpeg)
+<img src="./Screen/screen1" alt="100" width="100"/>
 
 <br>
 
@@ -177,6 +177,8 @@ After selecting where you want to go with the get ride button you will be catapu
 <br>
 
 ![Nav](./Screen/screen5.jpeg)
+
+<br>
 
 ## EndScreen
 
