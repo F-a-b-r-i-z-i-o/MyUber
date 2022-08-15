@@ -152,7 +152,7 @@ In this section we can find the search bar to look for the place where we want t
 
 <br>
 
-<img src="./Screen/screen1" alt="100" width="100"/>
+<img src="/home/fabrizio/Scrivania/MyUber/Screen/screen1.jpeg" alt="100" width="100"/>
 
 <br>
 
