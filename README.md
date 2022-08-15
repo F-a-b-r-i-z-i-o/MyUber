@@ -20,7 +20,9 @@ This app is an app that simulates the operation of uber is not complete as the u
 
   - [GoogleApi](#google-api)
 
-- [HomeScreen]()
+- [HomeScreen](#home)
+
+- [Navigate]
 
 <hr>
 
@@ -144,12 +146,28 @@ In this section we can find the search bar to look for the place where we want t
 
 **As mentioned above, it is not possible to use the part for food reservation.**
 
-![home](./Screen/screen1.jpeg) {width=70%}
+<br>
+
+![home](./Screen/screen1.jpeg)
 
 <br>
 
-![home2](./Screen/screen2.jpeg) {width=70%}
+![home2](./Screen/screen2.jpeg)
 
 <br>
 
-![home3](./Screen/screen3.jpeg) {width=70%}
+![home3](./Screen/screen3.jpeg)
+
+<br>
+
+## Navigate
+
+After selecting where you want to go with the get ride button you will be catapulted to the starting location from here we would always have a search bar that will allow us to select the destination. The destination place can also be selected with the appropriate icons in the part below. Plus you can return to the home by pressing the button in the upper left corner of the monitor.
+
+<br>
+
+![Nav](./Screen/screen4.jpeg)
+
+<br>
+
+![Nav](./Screen/screen5.jpeg)
