@@ -144,12 +144,12 @@ In this section we can find the search bar to look for the place where we want t
 
 **As mentioned above, it is not possible to use the part for food reservation.**
 
-![home](./Screen/screen1.jpeg){width=70%}
+![home](./Screen/screen1.jpeg) {width=70%}
 
 <br>
 
-![home2](./Screen/screen2.jpeg){width=70%}
+![home2](./Screen/screen2.jpeg) {width=70%}
 
 <br>
 
-![home3](./Screen/screen3.jpeg){width=70%}
+![home3](./Screen/screen3.jpeg) {width=70%}
