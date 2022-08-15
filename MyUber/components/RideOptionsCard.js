@@ -92,9 +92,9 @@ const RideOptionsCard = () => {
               <Text> {travelTimeInformation?.duration?.text} Travel Time</Text>
             </View>
             <Text style={tw`text-xl`}>
-              {new Intl.NumberFormat("en-gb", {
+              {new Intl.NumberFormat("de-DE", {
                 style: "currency",
-                currency: "GBP",
+                currency: "EUR",
               }).format(
                 (travelTimeInformation?.duration.value *
                   SURGE_CHARGE_RATE *
