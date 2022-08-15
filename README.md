@@ -2,6 +2,8 @@
 
 <hr>
 
+<br>
+
 This app is an app that simulates the operation of uber is not complete as the uber eats part is not working, but it can be implemented in the future. The project was done with google maps api and redux
 
 <br>
@@ -10,11 +12,15 @@ This app is an app that simulates the operation of uber is not complete as the u
 
 - [Installation](#intallation)
 
-  -[Nodejs](#nodejs)
+  - [Nodejs](#nodejs)
 
-  -[Expo](#expo)
+  - [Expo](#expo)
 
-  -[GoogleApi](#google-api)
+  - [Redux](#redux)
+
+  - [GoogleApi](#google-api)
+
+- []
 
 <hr>
 
@@ -60,13 +66,7 @@ Check the version of NPM installed:
 
 <br>
 
-<hr>
-
-<br>
-
 ### Expo
-
-<br>
 
 <hr>
 
@@ -104,8 +104,6 @@ After registering we can log in with the command:
 
 `expo login`
 
-<hr>
-
 <br>
 
 ### Redux
@@ -119,8 +117,6 @@ For installation:
 <br>
 
 `npm install @reduxjs/toolkit`
-
-<hr>
 
 <br>
 
