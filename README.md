@@ -152,7 +152,7 @@ In this section we can find the search bar to look for the place where we want t
 
 <br>
 
-![home](./Screen/screen1.jpeg)
+![home](./Screen/screen1.jpeg) {:height="36px" width="36px"}
 
 <br>
 
