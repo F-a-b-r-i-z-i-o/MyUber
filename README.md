@@ -203,4 +203,6 @@ A qr code will be generated which if framed will be able to run our project on b
 
 This project has some bugs that can be fixed in the future if decided to use, plus some installation of some libraries is omitted in case you need to consult the react-native documentation.
 
-**_Enjoy 2F_**
+<hr>
+
+*Enjoy 2F*
